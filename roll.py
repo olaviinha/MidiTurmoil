@@ -19,6 +19,16 @@
 ## LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 ## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ## SOFTWARE.
+##
+##---------------------------------------------------------------------------------
+##
+##   Original midi-visualization by exeex is located here:
+##   https://github.com/exeex/midi-visualization
+##
+##   This file is modified by O. Inha for MIDIGenerators:
+##   https://github.com/olaviinha/MIDIGenerators
+##
+##---------------------------------------------------------------------------------
 
 import mido
 import numpy as np
@@ -176,7 +186,7 @@ class MidiFile(mido.MidiFile):
             alphas = np.linspace(0, 1, cmaps[i].N + 3)
             cmaps[i]._lut[:, -1] = alphas
 
-        fig = plt.figure(figsize=(4, 3))
+        fig = plt.figure(figsize=(25, 10))
         a1 = fig.add_subplot(111)
         a1.axis("equal")
         a1.set_facecolor("black")
