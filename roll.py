@@ -38,7 +38,7 @@ from matplotlib.colors import colorConverter
 
 
 # inherit the origin mido class
-class MidiFile(mido.MidiFile):
+class mfplt(mido.MidiFile):
 
     def __init__(self, filename):
 
@@ -216,14 +216,14 @@ class MidiFile(mido.MidiFile):
         # change unit of time axis from tick to second
         tick = self.get_total_ticks()
         second = mido.tick2second(tick, self.ticks_per_beat, self.get_tempo())
-        print(second)
+        #print(second)
         if second > 10:
             x_label_period_sec = second // 10
         else:
             x_label_period_sec = second / 10  # ms
-        print(x_label_period_sec)
+        #print(x_label_period_sec)
         x_label_interval = mido.second2tick(x_label_period_sec, self.ticks_per_beat, self.get_tempo()) / self.sr
-        print(x_label_interval)
+        #print(x_label_interval)
         plt.xticks([int(x * x_label_interval) for x in range(20)], [round(x * x_label_period_sec, 2) for x in range(20)])
 
         # change scale and label of y axis
@@ -254,16 +254,14 @@ class MidiFile(mido.MidiFile):
 
         # draw color bar
 
-        colors = [mpl.colors.hsv_to_rgb((i / channel_nb, 1, 1)) for i in range(channel_nb)]
-        cmap = mpl.colors.LinearSegmentedColormap.from_list('my_cmap', colors, 16)
-        a2 = fig.add_axes([0.05, 0.80, 0.9, 0.15])
-        cbar = mpl.colorbar.ColorbarBase(a2, cmap=cmap,
-                                        orientation='horizontal',
-                                        ticks=list(range(16)))
+        # colors = [mpl.colors.hsv_to_rgb((i / channel_nb, 1, 1)) for i in range(channel_nb)]
+        # cmap = mpl.colors.LinearSegmentedColormap.from_list('my_cmap', colors, 16)
+        # a2 = fig.add_axes([0.05, 0.80, 0.9, 0.15])
+        # cbar = mpl.colorbar.ColorbarBase(a2, cmap=cmap, orientation='horizontal', ticks=list(range(16)))
 
         # show piano roll
         plt.draw()
-        plt.ion()
+        # plt.ion()
         plt.show(block=True)
 
     def get_tempo(self):
@@ -281,15 +279,14 @@ class MidiFile(mido.MidiFile):
         return max_ticks
 
 
-if __name__ == "__main__":
-    mid = MidiFile("test_file/1.mid")
+# if __name__ == "__main__":
+#     mid = MidiFile("test_file/1.mid")
 
-    # get the list of all events
-    # events = mid.get_events()
+#     # get the list of all events
+#     # events = mid.get_events()
 
-    # get the np array of piano roll image
-    roll = mid.get_roll()
+#     # get the np array of piano roll image
+#     roll = mid.get_roll()
 
-    # draw piano roll by pyplot
-    mid.draw_roll()
-
+#     # draw piano roll by pyplot
+#     mid.draw_roll()
