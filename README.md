@@ -11,7 +11,7 @@ Currently only one is available.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/RandomArpeggioSequencer.ipynb)
 
-Generates random arpeggio sequence by given chord, length, octaves, randomized note velocities within selected range, and other settings. Preview audio player is also generated within the notebook.
+Generates random arpeggio sequence by given bpm, chord, length, octaves, randomized note velocities within selected range, and other settings. Preview audio player is also generated within the notebook.
 
 I.e. it generates notation like this for your selected chord:
 
