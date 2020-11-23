@@ -208,7 +208,7 @@ class MidiFile(mido.MidiFile):
 
         # build and set fig obj
         plt.ioff()
-        fig = plt.figure(figsize=(4, 3))
+        fig = plt.figure(figsize=(25, 10))
         a1 = fig.add_subplot(111)
         a1.axis("equal")
         a1.set_facecolor("black")
