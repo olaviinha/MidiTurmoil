@@ -19,7 +19,7 @@ I.e. it generates notations like this (example) for your selected chord:
 
 ### Audio Demos
 All demos at 170 BPM, 4 notes per beat, velocity range 80-100.
-Description | Generated MIDI | Audio | 
+Description | Generated MIDI | Audio render from DAW | 
 ------------ | ------------ | ------------- |
 Amaj in 3 octaves | [.mid](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Amaj_oct3-5__dynv.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Amaj_oct3-5__dynv.wav)
 Cmaj in 2 octaves | [.mid](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Cmaj_oct2-3__iimg.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Cmaj_oct2-3__iimg.wav)
