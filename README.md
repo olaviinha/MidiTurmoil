@@ -1,6 +1,6 @@
-# Midi Generators
+# MIDI Generators
 
-This is _to be_ a collection of Colab notebooks dedicated to generating MIDI files, that are ready to be drag & dropped to a DAW.
+This is _to be_ a collection of Colab notebooks dedicated to generating MIDI files that are ready to be drag & dropped to a DAW.
 All notebooks run in [Google Colaboratory](https://colab.research.google.com) (i.e. your browser), using your [Google Drive](https://drive.google.com/drive/my-drive) as data source and/or storage.
 
 Currently only one is available.
