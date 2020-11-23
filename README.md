@@ -5,7 +5,11 @@ All notebooks run in [Google Colaboratory](https://colab.research.google.com) (i
 
 Currently only one is available.
 
+---
+
 ## Random Arpeggio Sequencer
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/RandomArpeggioSequencer.ipynb)
 
 Generates random arpeggio sequence by given chord (scale & quality), length, octaves, and randomized note velocities within selected range. Preview audio player is also generated within the notebook.
 
