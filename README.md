@@ -13,7 +13,7 @@ Currently only one is available.
 
 Generates random arpeggio sequence by given bpm, chord, length, octaves, randomized note velocities within selected range, and other settings. Preview audio player is also generated within the notebook.
 
-I.e. it generates notation like this for your selected chord:
+I.e. it generates notations like this (example) for your selected chord:
 
 ![Generated MIDI dragged to DAW](https://storage.googleapis.com/olaviinha/github/midi-generators/pianoroll.png)
 
