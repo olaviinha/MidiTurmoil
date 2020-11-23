@@ -11,14 +11,14 @@ Currently only one is available.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/RandomArpeggioSequencer.ipynb)
 
-Generates random arpeggio sequence by given bpm, chord, length, octaves, randomized note velocities within selected range, and other settings. Preview audio player is also generated within the notebook.
+Generates random arpeggio sequence by given bpm, chord, notes per beat, length, octaves, randomized note velocities within selected range, and other settings. Preview audio player is also generated within the notebook.
 
 I.e. it generates notations like this (example) for your selected chord:
 
 ![Generated MIDI dragged to DAW](https://storage.googleapis.com/olaviinha/github/midi-generators/pianoroll.png)
 
 ### Audio Demos
-All demos at 170 BPM, 4 notes per beat, velocity range 80-100.
+All demos at 170 BPM.
 Description | Generated MIDI | Audio render from DAW | 
 ------------ | ------------ | ------------- |
 Amaj in 3 octaves | [.mid](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Amaj_oct3-5__dynv.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Amaj_oct3-5__dynv.wav)
