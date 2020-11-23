@@ -49,7 +49,7 @@ class mfplt(mido.MidiFile):
 
     def get_events(self):
         mid = self
-        print(mid)
+        #print(mid)
 
         # There is > 16 channel in midi.tracks. However there is only 16 channel related to "music" events.
         # We store music events of 16 channel in the list "events" with form [[ch1],[ch2]....[ch16]]
@@ -100,7 +100,7 @@ class mfplt(mido.MidiFile):
             # Volume would change by control change event (cc) cc7 & cc11
             # Volume 0-100 is mapped to 0-127
 
-            print("channel", idx, "start")
+            #print("channel", idx, "start")
             for msg in channel:
                 if msg.type == "control_change":
                     if msg.control == 7:
@@ -113,12 +113,12 @@ class mfplt(mido.MidiFile):
 
                 if msg.type == "program_change":
                     timbre_register[idx] = msg.program
-                    print("channel", idx, "pc", msg.program, "time", time_counter, "duration", msg.time)
+                    #print("channel", idx, "pc", msg.program, "time", time_counter, "duration", msg.time)
 
 
 
                 if msg.type == "note_on":
-                    print("on ", msg.note, "time", time_counter, "duration", msg.time, "velocity", msg.velocity)
+                    #print("on ", msg.note, "time", time_counter, "duration", msg.time, "velocity", msg.velocity)
                     note_on_start_time = time_counter // sr
                     note_on_end_time = (time_counter + msg.time) // sr
                     intensity = volume * msg.velocity // 127
@@ -139,7 +139,7 @@ class mfplt(mido.MidiFile):
 
 
                 if msg.type == "note_off":
-                    print("off", msg.note, "time", time_counter, "duration", msg.time, "velocity", msg.velocity)
+                    #print("off", msg.note, "time", time_counter, "duration", msg.time, "velocity", msg.velocity)
                     note_off_start_time = time_counter // sr
                     note_off_end_time = (time_counter + msg.time) // sr
                     note_on_end_time = note_register[msg.note][0]
