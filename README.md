@@ -1,6 +1,6 @@
 # MIDI Generators
 
-This is _to be_ a collection of Colab notebooks dedicated to generating MIDI files that are ready to be drag & dropped to a DAW.
+This is _to be_ a collection of Colab notebooks dedicated to generating MIDI files that are ready to be drag & dropped into a DAW.
 All notebooks run in [Google Colaboratory](https://colab.research.google.com) (i.e. your browser), using your [Google Drive](https://drive.google.com/drive/my-drive) as data source and/or storage.
 
 Currently only one is available.
@@ -11,7 +11,7 @@ Currently only one is available.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/RandomArpeggioSequencer.ipynb)
 
-Generates random arpeggio sequence by given bpm, chord, notes per beat, length, octaves, randomized note velocities within selected range, and other settings. Preview audio player is also generated within the notebook.
+Generates random arpeggio-like sequence by given bpm, chord, notes per beat, length, octaves, randomized note velocities within selected range, and other settings. Preview audio player is also generated inside the notebook.
 
 I.e. it generates notations like this (example) for your selected chord:
 
