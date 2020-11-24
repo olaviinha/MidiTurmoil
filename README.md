@@ -19,7 +19,7 @@ I.e. it generates notations like this (example) for your selected chord:
 
 ### Audio Demos
 All demos at 170 BPM.
-Description | Generated MIDI | Audio render from DAW | 
+Description | Generated MIDI | DAW render | 
 ------------ | ------------ | ------------- |
 Amaj in 3 octaves | [.mid](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Amaj_oct3-5__dynv.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Amaj_oct3-5__dynv.wav)
 A9sus4 in 2 octaves | [.mid](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_A9sus4_oct3-4__ruxk.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_A9sus4_oct3-4__ruxk.wav)
