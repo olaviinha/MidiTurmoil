@@ -28,8 +28,8 @@ Bounce cell takes build-up time and fall-down time and generates randomized nota
 ### Audio Demos
 Description | Generated MIDI | DAW render | 
 ------------ | ------------ | ------------- |
+Bounce - A9sus4 and E9sus4 in 2 octaves. Bass loop added in DAW. | [.mid#1](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc_124bpm_A9sus4_oct3-4__afzr.mid), [.mid#2](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc_124bpm_E9sus4_oct3-4__aibl.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc_124bpm_A9sus_e9sus4.wav)
 Arplike - A9sus4 in 2 octaves | [.mid](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_A9sus4_oct3-4__ruxk.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_A9sus4_oct3-4__ruxk.wav)
 Arplike - Cmaj in 2 octaves | [.mid](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Cmaj_oct2-3__iimg.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/ra_170bpm_Cmaj_oct2-3__iimg.wav)
-Bounce - A9sus4 and E9sus4 in 2 octaves. Bass loop added in DAW. | [.mid#1](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc_124bpm_A9sus4_oct3-4__afzr.mid), [.mid#2](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc_124bpm_E9sus4_oct3-4__aibl.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc_124bpm_A9sus_e9sus4.wav)
 
 
