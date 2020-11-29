@@ -17,7 +17,7 @@ Random Seq outputs two kinds of MIDIs based on given chord, octaves, randomized 
 
 ![Arplike](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_arp1.png)
 
-Arplike cell takes bpm, notes per beat, and length, and generates a randomized arpeggio-like sequence. Technically it's not an arpeggio, but think of a synth arpeggio where the notes are randomized instead of directional.
+Arplike cell takes bpm, notes per beat, and length, and generates a randomized arpeggio-like sequence. Technically it's not an arpeggio, but think of a synth arpeggio where the chord notes are randomized instead of directional.
 
 ## Bounce
 
