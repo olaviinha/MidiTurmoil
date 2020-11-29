@@ -11,7 +11,7 @@ Currently only one is available.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/RandomSeq.ipynb)
 
-Random Seq outputs two kinds of MIDIs based on given chord, octaves, randomized velocities etc. Preview players are provided inside the notebook.
+Random Seq outputs two kinds of midi notations based on given chord, octaves, randomized velocities etc. Preview players are provided inside the notebook.
 
 ## Arplike
 
