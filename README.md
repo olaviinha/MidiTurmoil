@@ -23,7 +23,7 @@ Arplike cell takes bpm, notes per beat, and length, and generates a randomized a
 
 ![Arplike](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc1.png)
 
-Bounce cell takes build-up time and fall-down time and generates randomized notation placing it in time by simulating a bouncing ball.
+Bounce cell takes build-up time and fall-down time and generates randomized notation placing it in time based on a bouncing ball simulation.
 
 ### Audio Demos
 Description | Generated MIDI | DAW render | 
