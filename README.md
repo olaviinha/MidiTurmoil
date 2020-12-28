@@ -40,6 +40,6 @@ Arplike - Cmaj in 2 octaves | [.mid](https://storage.googleapis.com/olaviinha/gi
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/Transcriber.ipynb)
 
-Transcriber takes an audio file or a youtube link, separates it into stems using Deezer Spleeter, then transcribes the track or selected stem to MIDI notation using Google Magenta's Onsets and Frames Piano Transcription. Decent accuracy is reached only with piano.
+Transcriber takes an audio file or a youtube link, separates it into stems using Deezer Spleeter, then transcribes the track or selected stem to MIDI notation using Google Magenta's Onsets and Frames Piano Transcription.
 
 
