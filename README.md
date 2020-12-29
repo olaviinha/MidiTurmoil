@@ -13,7 +13,7 @@ All notebooks run in [Google Colaboratory](https://colab.research.google.com) (i
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/RandomSeq.ipynb)
 
-Random Seq outputs two kinds of randomized midi notations based on given chord, octaves, randomized velocities etc. Preview players are provided inside the notebook.
+Random Seq outputs two kinds of DAW-ready randomized midi notations based on given chord, octaves, randomized velocities etc. Preview players are provided inside the notebook.
 
 ### Arplike
 
