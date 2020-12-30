@@ -42,4 +42,7 @@ Arplike - Cmaj in 2 octaves | [.mid](https://storage.googleapis.com/olaviinha/gi
 
 Transcriber takes an audio file or a youtube link, separates it into stems using Deezer Spleeter, then transcribes the track or selected stem to MIDI notation using Google Magenta's Onsets and Frames Piano Transcription.
 
-
+### Audio Demos
+Input | Generated MIDI | Clip of original audio | Clip of DAW-rendered MIDI
+------------ | ------------ | ------------- | ------------- |
+[youtube-link](https://www.youtube.com/watch?v=oUFJJNQGwhk) | [.mid](https://storage.googleapis.com/olaviinha/github/midi-turmoil/The_Cinematic_Orchestra_-_To_Build_A_Home_piano_wvxf.mid) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-turmoil/orkkis.wav) | [.wav](https://storage.googleapis.com/olaviinha/github/midi-turmoil/piano.wav)
