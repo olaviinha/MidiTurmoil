@@ -9,23 +9,20 @@ All notebooks run in [Google Colaboratory](https://colab.research.google.com) (i
 
 ---
 
-## Random Seq
+## Sequence Pattern Generator
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/RandomSeq.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olaviinha/MidiGenerators/blob/main/SequencePatternGenerator.ipynb)
 
-Random Seq outputs two kinds of DAW-ready randomized midi notations based on given chord, octaves, randomized velocities etc. Preview players are provided inside the notebook.
+Sequence Pattern Generator outputs two kinds of DAW-ready randomized midi notations based on given chord progression (or individual chord), octaves, randomized velocities etc. Preview players are provided inside the notebook.
 
-### Arplike
+### Generated Pattern midi notation
 
-![Arplike](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_arp1.png)
+![image](https://user-images.githubusercontent.com/50331907/224554662-9724bdef-2b3d-4266-b19d-c2bbf439f2c4.png)
 
-Arplike cell takes bpm, notes per beat, and length, and generates a randomized arpeggio-like sequence. Technically it's not an arpeggio, but think of a synth arpeggio where the chord notes are randomized instead of directional.
 
-### Bounce
+### Generated Bounce midi notation
 
 ![Arplike](https://storage.googleapis.com/olaviinha/github/midi-generators/rs_bnc1.png)
-
-Bounce cell takes build-up time and fall-down time and generates randomized notation placing it in time based on a bouncing ball simulation.
 
 ### Audio Demos
 Description | Generated MIDI | DAW render | 
